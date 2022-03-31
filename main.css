@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Montserrat',sans-serif;
+}
+
+nav{
+    display: flex;
+    background-color:rgb(73, 110, 243) ;
+    justify-content: space-around;
+    padding: 25px 0;
+    color:rgb(183, 222, 241) ;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    width: 40%;
+    justify-content: space-between;
+}
+
+nav ul li a{
+    color: rgb(108, 210, 238);
+    font-size: 0.8em;
+}
+
+nav ul li a:hover{
+    color:rgb(229, 242, 243) ;
+}
+
+h3{
+    padding: 20px;
+    text-align: center;
+}
+
+#logo{
+    width: 30px;
+    height: 30px;
+    
+}
+
+.penjelasan{
+    padding: 20px;
+    margin: 10px;
+    background-color: rgb(166, 234, 245);
+    border-radius: 10px;
+}
+
+.jurusan{
+    padding: 20px;
+    margin: 10px;
+    background-color:rgb(166, 234, 245) ;
+    border-radius: 10px;
+    margin-top: 80px;
+}
+
+.prodi{
+    padding: 10px;
+    margin: 5px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+#gambar{
+    width: 55px;
+    height: 55px;
+    align-items: center;
+}
+
+footer{
+    background-color: rgb(52, 114, 238);
+}
+
+#footer-content h4{
+    color: white;
+    margin-top: 50px;
+    text-transform: capitalize;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 3rem;
+    text-align: center;
+}
+
+#footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+}
+
+.sosial{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 1rem 0 3rem 0;
+    cursor: pointer;
+
+
+}
+
+div #alur{
+    height: 450px;
+    margin: 50px;
+}
+
+
+.syarat li{
+    padding: 10px;
+    margin-left: 10px;
+}
+
+
+
+.logo-bawah{
+    width: 50px;
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    nav ul {
+        width:50%
+    }
+}
+
+@media screen and (max-width:576px){
+    nav ul {
+        display: none;
+    }
+}
+
